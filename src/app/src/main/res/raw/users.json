@@ -1,0 +1,100 @@
+{
+  "users": [
+	 {
+	   "id": "comp2100@anu.edu.au",
+	   "name": "Friendly Tutor",
+	   "password": "comp2100",
+	   "fans": "ChuangMa@anu.edu.au,test@t.t",
+	   "following": "ChuangMa@anu.edu.au,DiaoFu@anu.edu.au",
+	   "like_books": "9780340796146,9780340796313",
+       "biography": "About my information\n The underlying implementation must also:\nI. Make proper use of data structures such as arrays, maps, etc., and fully implement at least one tree\ndata structure taught in this course for organising, processing, retrieving, and storing data.\nII. Implement at least three design patterns covered in our course.\nIII. Retrieve data from a local file (JSON, XML, Bespoken, etc.) or Firebase.\nIV. Sufficiently tested for all the unit-testable components with JUnit 4 (excl. non-UI, external services).",
+	   "avatar": "https://g35.oss-cn-hongkong.aliyuncs.com/cat2.png",
+	   "address": "The Australian National University",
+	   "coordinates": "-35.27891364120302, 149.1181003036357"
+	 },
+	 {
+	   "id": "comp6442@anu.edu.au",
+	   "name": "Nice Tutor",
+	   "password": "comp6442",
+	   "fans": "DiaoFu@anu.edu.au,test@t.t",
+	   "following": "ChuangMa@anu.edu.au,DiaoFu@anu.edu.au",
+	   "like_books": "9780747564171,9780872207318",
+	   "biography": "About my information\n The underlying implementation must also:\nI. Make proper use of data structures such as arrays, maps, etc., and fully implement at least one tree\ndata structure taught in this course for organising, processing, retrieving, and storing data.\nII. Implement at least three design patterns covered in our course.\nIII. Retrieve data from a local file (JSON, XML, Bespoken, etc.) or Firebase.\nIV. Sufficiently tested for all the unit-testable components with JUnit 4 (excl. non-UI, external services).",
+	   "avatar": "https://g35.oss-cn-hongkong.aliyuncs.com/cat3.png",
+	   "address": "The Australian National University",
+	   "coordinates": "-35.27891364120302, 149.1181003036357"
+	 },
+	 {
+	   "id": "test@t.t",
+	   "name": "Test User",
+	   "password": "123456",
+	   "fans": "ChuangMa@anu.edu.au,DiaoFu@anu.edu.au",
+	   "following": "comp2100@anu.edu.au,comp6442@anu.edu.au",
+	   "like_books": "9780007158522,9781845130497",
+	   "biography": "About my information\n The underlying implementation must also:\nI. Make proper use of data structures such as arrays, maps, etc., and fully implement at least one tree\ndata structure taught in this course for organising, processing, retrieving, and storing data.\nII. Implement at least three design patterns covered in our course.\nIII. Retrieve data from a local file (JSON, XML, Bespoken, etc.) or Firebase.\nIV. Sufficiently tested for all the unit-testable components with JUnit 4 (excl. non-UI, external services).",
+	   "avatar": "https://g35.oss-cn-hongkong.aliyuncs.com/cat1.png",
+	   "address": "The Australian National University",
+	   "coordinates": "-35.27891364120302, 149.1181003036357"
+	 },
+	 {
+	   "id": "ChuangMa@anu.edu.au",
+	   "name": "Chuang Ma",
+	   "password": "123456",
+	   "fans": "comp2100@anu.edu.au,comp6442@anu.edu.au",
+	   "following": "comp2100@anu.edu.au,test@t.t",
+	   "like_books": "9781405228183,9780006483892",
+	   "biography": "About my information\n The underlying implementation must also:\nI. Make proper use of data structures such as arrays, maps, etc., and fully implement at least one tree\ndata structure taught in this course for organising, processing, retrieving, and storing data.\nII. Implement at least three design patterns covered in our course.\nIII. Retrieve data from a local file (JSON, XML, Bespoken, etc.) or Firebase.\nIV. Sufficiently tested for all the unit-testable components with JUnit 4 (excl. non-UI, external services).",
+	   "avatar": "https://g35.oss-cn-hongkong.aliyuncs.com/cat8.png",
+	   "address": "The Australian National University",
+	   "coordinates": "-35.27891364120302, 149.1181003036357"
+	 },
+	 {
+	   "id": "DiaoFu@anu.edu.au",
+	   "name": "Diao Fu",
+	   "password": "123456",
+	   "fans": "comp2100@anu.edu.au,comp6442@anu.edu.au",
+	   "following": "comp6442@anu.edu.au,test@t.t",
+	   "like_books": "9780752861746,9780340829776",
+	   "biography": "About my information\n The underlying implementation must also:\nI. Make proper use of data structures such as arrays, maps, etc., and fully implement at least one tree\ndata structure taught in this course for organising, processing, retrieving, and storing data.\nII. Implement at least three design patterns covered in our course.\nIII. Retrieve data from a local file (JSON, XML, Bespoken, etc.) or Firebase.\nIV. Sufficiently tested for all the unit-testable components with JUnit 4 (excl. non-UI, external services).",
+	   "avatar": "https://g35.oss-cn-hongkong.aliyuncs.com/cat4.png",
+	   "address": "The Australian National University",
+	   "coordinates": "-35.27891364120302, 149.1181003036357"
+	 },
+	 {
+	   "id": "HuizheRuan@anu.edu.au",
+	   "name": "Huizhe Ruan",
+	   "password": "123456",
+	   "fans": "AnboWu@anu.edu.au,JunfengGao@anu.edu.au",
+	   "following": "AnboWu@anu.edu.au,JunfengGao@anu.edu.au",
+	   "like_books": "9780099474128,9780141314570",
+	   "biography": "About my information\n The underlying implementation must also:\nI. Make proper use of data structures such as arrays, maps, etc., and fully implement at least one tree\ndata structure taught in this course for organising, processing, retrieving, and storing data.\nII. Implement at least three design patterns covered in our course.\nIII. Retrieve data from a local file (JSON, XML, Bespoken, etc.) or Firebase.\nIV. Sufficiently tested for all the unit-testable components with JUnit 4 (excl. non-UI, external services).",
+	   "avatar": "https://g35.oss-cn-hongkong.aliyuncs.com/cat5.png",
+	   "address": "The Australian National University",
+	   "coordinates": "-35.27891364120302, 149.1181003036357"
+	 },
+	 {
+	   "id": "AnboWu@anu.edu.au",
+	   "name": "Anbo Wu",
+	   "password": "123456",
+	   "fans": "HuizheRuan@anu.edu.au,JunfengGao@anu.edu.au",
+	   "following": "HuizheRuan@anu.edu.au,JunfengGao@anu.edu.au",
+	   "like_books": "9780099481249,9780141311357",
+	   "biography": "About my information ",
+	   "avatar": "https://g35.oss-cn-hongkong.aliyuncs.com/cat7.png",
+	   "address": "The Australian National University",
+	   "coordinates": "-35.27891364120302, 149.1181003036357"
+	 },
+	 {
+	   "id": "JunfengGao@anu.edu.au",
+	   "name": "Junfeng Gao",
+	   "password": "123456",
+	   "fans": "HuizheRuan@anu.edu.au,AnboWu@anu.edu.au",
+	   "following": "AnboWu@anu.edu.au,HuizheRuan@anu.edu.au",
+	   "like_books": "9780099478447,9780670910618",
+	   "biography": "About my information ",
+	   "avatar": "https://g35.oss-cn-hongkong.aliyuncs.com/cat6.png",
+	   "address": "The Australian National University",
+	   "coordinates": "-35.27891364120302, 149.1181003036357"
+	 }
+  ]
+}

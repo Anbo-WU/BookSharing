@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions xmlns:android="http://schemas.android.com/apk/res/android">
+    <action>
+        <action-type>SAY</action-type>
+        <user-id>ChuangMa@anu.edu.au</user-id>
+        <content>Hello, I am Chuang Ma</content>
+    </action>
+
+    <action>
+        <action-type>SAY</action-type>
+        <user-id>DiaoFu@anu.edu.au</user-id>
+        <content>Hello, I am Di'ao Fu</content>
+    </action>
+
+    <action>
+        <action-type>LIKE</action-type>
+        <user-id>DiaoFu@anu.edu.au</user-id>
+        <at-book-isbn>9788173031014</at-book-isbn>
+    </action>
+
+    <action>
+        <action-type>DISLIKE</action-type>
+        <user-id>DiaoFu@anu.edu.au</user-id>
+        <at-book-isbn>9788173031014</at-book-isbn>
+    </action>
+
+    <action>
+        <action-type>FOLLOW</action-type>
+        <user-id>DiaoFu@anu.edu.au</user-id>
+        <at-user-id>AnboWu@anu.edu.au</at-user-id>
+    </action>
+
+    <action>
+        <action-type>UNFOLLOW</action-type>
+        <user-id>DiaoFu@anu.edu.au</user-id>
+        <at-user-id>AnboWu@anu.edu.au</at-user-id>
+    </action>
+
+    <action>
+        <action-type>BORROW</action-type>
+        <user-id>DiaoFu@anu.edu.au</user-id>
+        <at-book-isbn>9788179921623</at-book-isbn>
+    </action>
+
+    <action>
+        <action-type>RETURN</action-type>
+        <user-id>DiaoFu@anu.edu.au</user-id>
+        <at-book-isbn>9788179921623</at-book-isbn>
+    </action>
+
+
+
+
+
+    <action>
+        <action-type>SAY</action-type>
+        <user-id>AnboWu@anu.edu.au</user-id>
+        <content>Hello, I am Anbo Wu</content>
+    </action>
+
+
+    <action>
+        <action-type>LIKE</action-type>
+        <user-id>AnboWu@anu.edu.au</user-id>
+        <at-book-isbn>9784766113389</at-book-isbn>
+    </action>
+
+    <action>
+        <action-type>DISLIKE</action-type>
+        <user-id>AnboWu@anu.edu.au</user-id>
+        <at-book-isbn>9784766113389</at-book-isbn>
+    </action>
+
+    <action>
+        <action-type>FOLLOW</action-type>
+        <user-id>AnboWu@anu.edu.au</user-id>
+        <at-user-id>comp2100@anu.edu.au</at-user-id>
+    </action>
+
+    <action>
+        <action-type>UNFOLLOW</action-type>
+        <user-id>AnboWu@anu.edu.au</user-id>
+        <at-user-id>comp2100@anu.edu.au</at-user-id>
+    </action>
+
+    <action>
+        <action-type>BORROW</action-type>
+        <user-id>AnboWu@anu.edu.au</user-id>
+        <at-book-isbn>9788171565641</at-book-isbn>
+    </action>
+
+    <action>
+        <action-type>RETURN</action-type>
+        <user-id>AnboWu@anu.edu.au</user-id>
+        <at-book-isbn>9788171565641</at-book-isbn>
+    </action>
+
+
+
+    <action>
+        <action-type>SAY</action-type>
+        <user-id>HuizheRuan@anu.edu.au</user-id>
+        <content>Hello, I am Huizhe Ruan</content>
+    </action>
+
+
+    <action>
+        <action-type>LIKE</action-type>
+        <user-id>HuizheRuan@anu.edu.au</user-id>
+        <at-book-isbn>9783110172799</at-book-isbn>
+    </action>
+
+    <action>
+        <action-type>DISLIKE</action-type>
+        <user-id>HuizheRuan@anu.edu.au</user-id>
+        <at-book-isbn>9783110172799</at-book-isbn>
+    </action>
+
+    <action>
+        <action-type>FOLLOW</action-type>
+        <user-id>HuizheRuan@anu.edu.au</user-id>
+        <at-user-id>comp6442@anu.edu.au</at-user-id>
+    </action>
+
+    <action>
+        <action-type>UNFOLLOW</action-type>
+        <user-id>HuizheRuan@anu.edu.au</user-id>
+        <at-user-id>comp6442@anu.edu.au</at-user-id>
+    </action>
+
+    <action>
+        <action-type>BORROW</action-type>
+        <user-id>HuizheRuan@anu.edu.au</user-id>
+        <at-book-isbn>9783791329284</at-book-isbn>
+    </action>
+
+    <action>
+        <action-type>RETURN</action-type>
+        <user-id>HuizheRuan@anu.edu.au</user-id>
+        <at-book-isbn>9783791329284</at-book-isbn>
+    </action>
+
+
+
+
+
+    <action>
+        <action-type>SAY</action-type>
+        <user-id>JunfengGao@anu.edu.au</user-id>
+        <content>Hello, I am Junfeng Gao</content>
+    </action>
+
+
+
+    <action>
+        <action-type>LIKE</action-type>
+        <user-id>JunfengGao@anu.edu.au</user-id>
+        <at-book-isbn>9781416520863</at-book-isbn>
+    </action>
+
+    <action>
+        <action-type>DISLIKE</action-type>
+        <user-id>JunfengGao@anu.edu.au</user-id>
+        <at-book-isbn>9781416520863</at-book-isbn>
+    </action>
+
+    <action>
+        <action-type>FOLLOW</action-type>
+        <user-id>JunfengGao@anu.edu.au</user-id>
+        <at-user-id>test@t.t</at-user-id>
+    </action>
+
+    <action>
+        <action-type>UNFOLLOW</action-type>
+        <user-id>JunfengGao@anu.edu.au</user-id>
+        <at-user-id>test@t.t</at-user-id>
+    </action>
+
+    <action>
+        <action-type>BORROW</action-type>
+        <user-id>JunfengGao@anu.edu.au</user-id>
+        <at-book-isbn>9781416516859</at-book-isbn>
+    </action>
+
+    <action>
+        <action-type>RETURN</action-type>
+        <user-id>JunfengGao@anu.edu.au</user-id>
+        <at-book-isbn>9781416516859</at-book-isbn>
+    </action>
+
+
+
+    <action>
+        <action-type>LIKE</action-type>
+        <user-id>ChuangMa@anu.edu.au</user-id>
+        <at-book-isbn>9789042003408</at-book-isbn>
+    </action>
+
+    <action>
+        <action-type>DISLIKE</action-type>
+        <user-id>ChuangMa@anu.edu.au</user-id>
+        <at-book-isbn>9789042003408</at-book-isbn>
+    </action>
+
+    <action>
+        <action-type>FOLLOW</action-type>
+        <user-id>ChuangMa@anu.edu.au</user-id>
+        <at-user-id>HuizheRuan@anu.edu.au</at-user-id>
+    </action>
+
+    <action>
+        <action-type>UNFOLLOW</action-type>
+        <user-id>ChuangMa@anu.edu.au</user-id>
+        <at-user-id>HuizheRuan@anu.edu.au</at-user-id>
+    </action>
+
+    <action>
+        <action-type>BORROW</action-type>
+        <user-id>ChuangMa@anu.edu.au</user-id>
+        <at-book-isbn>9788185300535</at-book-isbn>
+    </action>
+
+    <action>
+        <action-type>RETURN</action-type>
+        <user-id>ChuangMa@anu.edu.au</user-id>
+        <at-book-isbn>9788185300535</at-book-isbn>
+    </action>
+
+
+    <action>
+        <action-type>SAY</action-type>
+        <user-id>HuizheRuan@anu.edu.au</user-id>
+        <content>Hello, I am Huizhe Ruan</content>
+    </action>
+    <action>
+        <action-type>LIKE</action-type>
+        <user-id>HuizheRuan@anu.edu.au</user-id>
+        <at-book-isbn>9780002261982</at-book-isbn>
+    </action>
+    <action>
+        <action-type>FOLLOW</action-type>
+        <user-id>HuizheRuan@anu.edu.au</user-id>
+        <at-user-id>comp6442@anu.edu.au</at-user-id>
+    </action>
+
+    <action>
+        <action-type>SAY</action-type>
+        <user-id>test@t.t</user-id>
+        <content>Hello, I am tester</content>
+    </action>
+    <action>
+        <action-type>LIKE</action-type>
+        <user-id>test@t.t</user-id>
+        <at-book-isbn>9780006380832</at-book-isbn>
+    </action>
+    <action>
+        <action-type>FOLLOW</action-type>
+        <user-id>test@t.t</user-id>
+        <at-user-id>JunfengGao@anu.edu.au</at-user-id>
+    </action>
+
+</actions>

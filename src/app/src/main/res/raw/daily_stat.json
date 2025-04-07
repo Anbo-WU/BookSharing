@@ -1,0 +1,292 @@
+{
+  "daily_stats":
+  [
+    {
+      "date": "2023-04-15",
+      "registered_users": 14,
+      "active_users": 68,
+      "books_borrowed": 23,
+      "books_shared": 35
+    },
+    {
+      "date": "2023-04-16",
+      "registered_users": 16,
+      "active_users": 76,
+      "books_borrowed": 20,
+      "books_shared": 32
+    },
+    {
+      "date": "2023-04-17",
+      "registered_users": 5,
+      "active_users": 48,
+      "books_borrowed": 35,
+      "books_shared": 25
+    },
+    {
+      "date": "2023-04-18",
+      "registered_users": 14,
+      "active_users": 68,
+      "books_borrowed": 36,
+      "books_shared": 32
+    },
+    {
+      "date": "2023-04-19",
+      "registered_users": 14,
+      "active_users": 70,
+      "books_borrowed": 30,
+      "books_shared": 38
+    },
+    {
+      "date": "2023-04-20",
+      "registered_users": 14,
+      "active_users": 77,
+      "books_borrowed": 25,
+      "books_shared": 30
+    },
+    {
+      "date": "2023-04-21",
+      "registered_users": 17,
+      "active_users": 56,
+      "books_borrowed": 36,
+      "books_shared": 20
+    },
+    {
+      "date": "2023-04-22",
+      "registered_users": 4,
+      "active_users": 57,
+      "books_borrowed": 32,
+      "books_shared": 39
+    },
+    {
+      "date": "2023-04-23",
+      "registered_users": 8,
+      "active_users": 43,
+      "books_borrowed": 28,
+      "books_shared": 27
+    },
+    {
+      "date": "2023-04-24",
+      "registered_users": 8,
+      "active_users": 40,
+      "books_borrowed": 20,
+      "books_shared": 21
+    },
+    {
+      "date": "2023-04-25",
+      "registered_users": 4,
+      "active_users": 65,
+      "books_borrowed": 36,
+      "books_shared": 21
+    },
+    {
+      "date": "2023-04-26",
+      "registered_users": 7,
+      "active_users": 67,
+      "books_borrowed": 26,
+      "books_shared": 21
+    },
+    {
+      "date": "2023-04-27",
+      "registered_users": 15,
+      "active_users": 54,
+      "books_borrowed": 24,
+      "books_shared": 32
+    },
+    {
+      "date": "2023-04-28",
+      "registered_users": 7,
+      "active_users": 64,
+      "books_borrowed": 28,
+      "books_shared": 27
+    },
+    {
+      "date": "2023-04-29",
+      "registered_users": 12,
+      "active_users": 65,
+      "books_borrowed": 34,
+      "books_shared": 32
+    },
+    {
+      "date": "2023-04-30",
+      "registered_users": 15,
+      "active_users": 72,
+      "books_borrowed": 34,
+      "books_shared": 29
+    },
+    {
+      "date": "2023-05-01",
+      "registered_users": 10,
+      "active_users": 67,
+      "books_borrowed": 25,
+      "books_shared": 39
+    },
+    {
+      "date": "2023-05-02",
+      "registered_users": 14,
+      "active_users": 68,
+      "books_borrowed": 25,
+      "books_shared": 22
+    },
+    {
+      "date": "2023-05-03",
+      "registered_users": 14,
+      "active_users": 76,
+      "books_borrowed": 28,
+      "books_shared": 32
+    },
+    {
+      "date": "2023-05-04",
+      "registered_users": 8,
+      "active_users": 47,
+      "books_borrowed": 28,
+      "books_shared": 36
+    },
+    {
+      "date": "2023-05-05",
+      "registered_users": 14,
+      "active_users": 72,
+      "books_borrowed": 20,
+      "books_shared": 27
+    },
+    {
+      "date": "2023-05-06",
+      "registered_users": 10,
+      "active_users": 60,
+      "books_borrowed": 20,
+      "books_shared": 34
+    },
+    {
+      "date": "2023-05-07",
+      "registered_users": 16,
+      "active_users": 77,
+      "books_borrowed": 29,
+      "books_shared": 29
+    },
+    {
+      "date": "2023-05-08",
+      "registered_users": 16,
+      "active_users": 61,
+      "books_borrowed": 20,
+      "books_shared": 31
+    },
+    {
+      "date": "2023-05-09",
+      "registered_users": 16,
+      "active_users": 70,
+      "books_borrowed": 28,
+      "books_shared": 21
+    },
+    {
+      "date": "2023-05-10",
+      "registered_users": 7,
+      "active_users": 52,
+      "books_borrowed": 24,
+      "books_shared": 22
+    },
+    {
+      "date": "2023-05-11",
+      "registered_users": 15,
+      "active_users": 54,
+      "books_borrowed": 35,
+      "books_shared": 26
+    },
+    {
+      "date": "2023-05-12",
+      "registered_users": 8,
+      "active_users": 62,
+      "books_borrowed": 33,
+      "books_shared": 27
+    },
+    {
+      "date": "2023-05-13",
+      "registered_users": 6,
+      "active_users": 64,
+      "books_borrowed": 32,
+      "books_shared": 25
+    },
+    {
+      "date": "2023-05-14",
+      "registered_users": 9,
+      "active_users": 69,
+      "books_borrowed": 23,
+      "books_shared": 26
+    },
+    {
+      "date": "2023-05-15",
+      "registered_users": 5,
+      "active_users": 50,
+      "books_borrowed": 36,
+      "books_shared": 31
+    },
+    {
+      "date": "2023-05-16",
+      "registered_users": 8,
+      "active_users": 61,
+      "books_borrowed": 37,
+      "books_shared": 29
+    },
+    {
+      "date": "2023-05-17",
+      "registered_users": 4,
+      "active_users": 69,
+      "books_borrowed": 23,
+      "books_shared": 33
+    },
+    {
+      "date": "2023-05-18",
+      "registered_users": 7,
+      "active_users": 52,
+      "books_borrowed": 28,
+      "books_shared": 22
+    },
+    {
+      "date": "2023-05-19",
+      "registered_users": 12,
+      "active_users": 43,
+      "books_borrowed": 34,
+      "books_shared": 25
+    },
+    {
+      "date": "2023-05-20",
+      "registered_users": 11,
+      "active_users": 68,
+      "books_borrowed": 34,
+      "books_shared": 20
+    },
+    {
+      "date": "2023-05-21",
+      "registered_users": 7,
+      "active_users": 43,
+      "books_borrowed": 30,
+      "books_shared": 35
+    },
+    {
+      "date": "2023-05-22",
+      "registered_users": 17,
+      "active_users": 41,
+      "books_borrowed": 34,
+      "books_shared": 31
+    },
+    {
+      "date": "2023-05-23",
+      "registered_users": 3,
+      "active_users": 70,
+      "books_borrowed": 36,
+      "books_shared": 34
+    },
+    {
+      "date": "2023-05-24",
+      "registered_users": 9,
+      "active_users": 61,
+      "books_borrowed": 34,
+      "books_shared": 31
+    },
+    {
+      "date": "2023-05-25",
+      "registered_users": 14,
+      "active_users": 42,
+      "books_borrowed": 30,
+      "books_shared": 23
+    }
+  ]
+}

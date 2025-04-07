@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.search.BuildQueryActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Query String: "
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/query_string"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/isbn_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="13-digit ISBN" />
+
+    <EditText
+        android:id="@+id/title_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/authors_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Authors" />
+
+    <EditText
+        android:id="@+id/categories_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="Categories"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/year_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="Published Year"
+        android:inputType="none" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clear_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Clear" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/done_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Done" />
+    </LinearLayout>
+
+
+</LinearLayout>

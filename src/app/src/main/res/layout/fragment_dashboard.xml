@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/daily_stat_chart"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:id="@+id/daily_stat_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/daily_statistics_of_users_activity"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="30dp"
+                android:background="#BDBDBD" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/published_year_chart"
+                android:layout_width="match_parent"
+                android:layout_margin="2dp"
+                android:layout_height="450dp" />
+
+            <TextView
+                android:id="@+id/published_year_chart_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/book_distribution_by_publication_year"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="50dp"
+                android:background="#BDBDBD" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/category_chart"
+                android:layout_width="match_parent"
+                android:layout_margin="2dp"
+                android:layout_height="600dp" />
+
+            <TextView
+                android:id="@+id/category_chart_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/book_distribution_by_category"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="100dp"
+                android:background="#BDBDBD" />
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

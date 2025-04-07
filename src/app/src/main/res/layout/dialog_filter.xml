@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_group_borrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/available"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/available" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/borrowed"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/borrowed" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_group_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/likes_gt_49"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/likes_gt_49" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/likes_lt_50"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/likes_lt_50" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="6dp"
+                android:text="@string/reset" />
+
+            <Button
+                android:id="@+id/button_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/done" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

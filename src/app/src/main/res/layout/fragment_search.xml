@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.search.SearchFragment">
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view123"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="TITLE:TitleString&amp;AUTHORS:AuthorsString"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/query_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TITLE:TitleString&amp;AUTHORS:AuthorsString" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="-5dp"
+                android:src="@drawable/icon_sort" />
+
+            <Spinner
+                android:id="@+id/spinner_sort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/layout_filter"
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="18dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/icon_filter" />
+
+            <TextView
+                android:id="@+id/text_filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filter"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/query_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:text="query" />
+
+            <Button
+                android:id="@+id/advanced_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:text="Adv." />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_results"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
