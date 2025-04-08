@@ -35,6 +35,15 @@ To run this project locally, please follow the steps below:
 
    - Select an emulator or connected Android device  
    - Click the green **Run** button or press `Shift + F10`
+
+❗You can use these account and password to login:
+- Username: comp6442@anu.edu.au
+- Password: comp6442
+<br>Or,<br>
+- Username: comp2100@anu.edu.au
+- Password: comp2100
+
+
 ## 🚀 Features
 
 ### ✅ Core Features
