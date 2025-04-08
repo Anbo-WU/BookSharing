@@ -1,2 +1,26 @@
+# === Android Studio / IntelliJ IDEA ===
+*.iml
 .idea/
+local.properties
+
+# === Gradle ===
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradlew
+!gradlew.bat
+
+# === OS generated ===
 .DS_Store
+Thumbs.db
+
+# === Log / Temp / System ===
+*.log
+*.tmp
+
+# === Misc ===
+*.keystore
+*.apk
+*.jar
+*.class
