@@ -36,14 +36,14 @@ A feature-rich Android application developed as part of a university group proje
 - Number of test cases: **98**
 - Coverage: **95%**
 - Screenshot:  
-  ![Data Test Coverage](media/test/data.png)
+  ![Data Test Coverage](items/media/test/data.png)
 
 ### UI Logic Tests
 - Codebase: [`/ui` test package](/src/app/src/test/java/anu/g35/sharebooks/ui)
 - Number of test cases: **21**
 - Coverage: **95%**
 - Screenshot:  
-  ![UI Test Coverage](media/test/ui.png)
+  ![UI Test Coverage](items/media/test/ui.png)
 
 ---
 
