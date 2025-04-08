@@ -1,6 +1,7 @@
 # 📚 ShareBooks App
 
 A feature-rich Android application developed as part of a university group project. ShareBooks enables university students to share, search, and interact with secondhand books in a dynamic and user-centric platform. The app emphasizes data structuring, search grammar parsing, interactive features, and privacy-conscious design.
+![BookShares](items/media/ui/BookShares.png)
 
 ---
 
@@ -17,6 +18,13 @@ You can download and run the ShareBooks Android App using the following APK file
 4. Tap the file to install
 
 💡 You can also use [Android Emulator](https://developer.android.com/studio/run/emulator) to test it on your PC/Mac.
+
+#### ❗You can use these accounts and passwords to login:
+- Username: comp6442@anu.edu.au
+- Password: comp6442
+<br>Or,<br>
+- Username: comp2100@anu.edu.au
+- Password: comp2100
 
 ## 🛠️ Local Setup & Run Instructions
 
@@ -50,12 +58,7 @@ To run this project locally, please follow the steps below:
    - Select an emulator or connected Android device  
    - Click the green **Run** button or press `Shift + F10`
 
-❗You can use these account and password to login:
-- Username: comp6442@anu.edu.au
-- Password: comp6442
-<br>Or,<br>
-- Username: comp2100@anu.edu.au
-- Password: comp2100
+
 
 
 ## 🚀 Features
