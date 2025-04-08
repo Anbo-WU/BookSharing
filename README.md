@@ -138,4 +138,10 @@ This project adopts multiple classic software design patterns to improve modular
   ![UI Test Coverage](items/media/test/ui.png)
 
 
+---
 
+### 📄 License
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+
+You are free to view, download, and adapt this project for **non-commercial academic or educational purposes** with proper attribution. **Commercial use is strictly prohibited.**
