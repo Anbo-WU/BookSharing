@@ -4,6 +4,20 @@ A feature-rich Android application developed as part of a university group proje
 
 ---
 
+## 📦 Download & Install
+
+You can download and run the ShareBooks Android App using the following APK file:
+
+👉 [Download APK](https://github.com/Anbo-WU/BookSharing/releases/download/v1.0/app-debug.apk)
+
+#### How to install:
+1. Download the `app-debug.apk`
+2. Transfer it to your Android phone (or use Android Emulator)
+3. Enable "Install from unknown sources" in settings
+4. Tap the file to install
+
+💡 You can also use [Android Emulator](https://developer.android.com/studio/run/emulator) to test it on your PC/Mac.
+
 ## 🛠️ Local Setup & Run Instructions
 
 To run this project locally, please follow the steps below:
